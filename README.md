@@ -1,18 +1,153 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Generateur de Code QR 
 
-Currently, two official plugins are available:
+## 📋 Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projet 03 de la série **100 projets en 1 an**
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## ✨ Fonctionnalités
 
-Note: This will impact Vite dev & build performances.
+* Pouvoir génerer un code QR pour n'importe quel lien
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🗂️ Structure du projet
+
+```
+01_Contact_management/
+│
+├── node_modules/                     # Modules Node.js
+├── public/                           # Ressources publiques
+├── src/                              # Code source
+│   ├── App.css                       # Styles du composant principal
+│   ├── data.js                       # données des cartes
+│   ├── game.js                       # logique du jeu
+│   ├── GameViewx.jsx                 # Écran du jeu
+│   ├── Home.jsx                      # Composant principal
+│   ├── index.css                     # Styles globaux
+│   └── main.jsx                      # Point d’entrée de l’application
+├── index.html                        # Template HTML
+├── package.json                      # Dépendances et scripts
+├── package-lock.json                 # Verrouillage des versions
+├── README.md                         # Documentation du projet
+├── vite.config.js                    # Configuration Vite
+└── .gitignore                        # Fichiers ignorés par Git
+```
+
+---
+
+## 🛠️ Technologies utilisées
+
+* **React** : Gestion des composants et logique de l’interface
+* **Vite** : Outil de build rapide et moderne
+* **CSS & TailwindCss** : Stylisation et mise en page
+*  **React-qr-code** : pour la géneration du code qr 
+
+---
+
+## 🚀 Installation et utilisation
+
+1. **Cloner le projet** :
+
+   ```bash
+   git clone https://github.com/dagbokady/03-Generateur-de-code-Qr.git
+   ```
+
+2. **Installer les dépendances** :
+
+   ```bash
+   npm install
+   ```
+
+3. **Lancer l’application** :
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Accéder à l’application** :
+   Ouvrez le navigateur à l’URL indiquée dans le terminal (souvent `http://localhost:5173`).
+
+---
+
+## 🎨 Personnalisation
+
+### Modifier la typographie
+
+Vous pouvez changer la police de l’application dans `index.css` :
+
+```css
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+```
+
+### Couleurs et styles
+
+* Modifier les couleurs et les styles des boutons ou badges dans les fichiers CSS correspondants (`App.css`, `Index.css`, etc.)
+* Le style peut aussi être modifié directement dans les classes de composants
+
+---
+
+## 📱 Responsive Design
+
+Le projet **n’est pas encore totalement responsive**, mais les composants sont facilement adaptables pour mobile et tablette.
+
+---
+
+## 🤝 Contribution
+
+Vous pouvez contribuer à ce projet pour proposer des améliorations ou corriger des bugs :
+
+1. Forkez le projet
+2. Créez une branche pour votre fonctionnalité :
+
+   ```bash
+   git checkout -b ma-fonctionnalite
+   ```
+3. Committez vos changements :
+
+   ```bash
+   git commit -m "Ajout d'une nouvelle fonctionnalité"
+   ```
+4. Pushez vers votre branche :
+
+   ```bash
+   git push origin ma-fonctionnalite
+   ```
+5. Ouvrez une Pull Request
+
+---
+
+## 📄 Licence
+
+Ce projet est libre de réutilisation et modification.
+
+---
+## 🎇 Image de l'application
+
+
+![image](public/img.png)
+
+---
+
+## ✉️ Contact
+
+Pour toute question ou retour :
+
+* **Auteur** : DAGBO KADY CHRIST-PHANUEL
+* **Email** : [dagbokady@gmail.com](mailto:dagbokady@gmail.com)
+
+---
+
+**Dernière mise à jour : 19-01-2026** ✅
+
+---
+
