@@ -22,10 +22,7 @@ Projet 03 de la série **100 projets en 1 an**
 ├── public/                           # Ressources publiques
 ├── src/                              # Code source
 │   ├── App.css                       # Styles du composant principal
-│   ├── data.js                       # données des cartes
-│   ├── game.js                       # logique du jeu
-│   ├── GameViewx.jsx                 # Écran du jeu
-│   ├── Home.jsx                      # Composant principal
+│   ├── App.jsx                       # Composant principal
 │   ├── index.css                     # Styles globaux
 │   └── main.jsx                      # Point d’entrée de l’application
 ├── index.html                        # Template HTML
